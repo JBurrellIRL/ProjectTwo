@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html {
+    background: url('https://killorglinsportscomplex.com/wp-content/uploads/2015/02/Squash_court.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+.container {
+    margin: 200px 25% 0 25%;
+    background-color: beige;
+    padding: 25px;
+    border-radius: 5px;
+
+}
