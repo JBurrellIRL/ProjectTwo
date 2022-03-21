@@ -10,43 +10,43 @@
 </head>
 
 <body>
-    <header>
-        <h1 class="header">Racket Game Scorekeeper</h1>
-    </header>
+    <h1 class="header">Racquet Game Score Keeper</h1>
 
     <div class="container">
+
         <div class="scoreboard">
             <div id="p1" class="playerone">Player One</div>
             <div id="p2" class="playertwo">Player Two</div>
-
-            <div class="p1scoredisplay">0</div>
-            <div class="p2scoredisplay">0</div>
+            <h3><span id="p1scoredisplay">0</span></h3>
+            <h3><span id="p2scoredisplay">0</span></h3>
 
             <div class="p1button">
-                <button>+1 Player One</button>
+                <button id="p1+1" class="button">+1 Player One</button>
             </div>
-
             <div class="p2button">
-                <button>+1 Player Two</button>
+                <button id="p2+1" class="button">+1 Player Two</button>
             </div>
         </div>
-
         <div class="reset-game">
-            <button>Reset Game</button>
+            <button id="resetgame" class="reset-button">Reset Game</button>
         </div>
-
         <div class="selectgame">
+
             <select name="" id="choosegame">
-                <option value="0"></option>
-                <option value="11"></option>
-                <option value="15"></option>
-                <option value="21"></option>
+                <option value="0">Choose Your Game</option>
+                <option value="11">Play to 11 - Squash</option>
+                <option value="15">Play to 15 - Racquetball</option>
+                <option value="21">Play to 21 - Badminton</option>
             </select>
         </div>
-    </div>
 
+        <div class="score-area">
+            <h3 class="scores">Play to 3!</h3>
+            <p class="scores">Player One Score: <span id="scorep1">0</span></p>
+            <p class="scores">Player Two Score: <span id="scorep2">0</span></p>
 
-    <script src="/assets/js/script.js"></script>
+        </div>
+        <script src="script.js"></script>
 </body>
 
 </html>
