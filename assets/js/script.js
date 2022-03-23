@@ -9,10 +9,7 @@ const resetButton = document.getElementById('resetgame');
 const p1ScoreDisplay = document.getElementById('p1scoredisplay');
 const p2ScoreDisplay = document.getElementById('p2scoredisplay');
 
-// Game selection
-const p1TotalDisplay = document.getElementsByClassName('score1')
-const p2TotalDisplay = document.getElementsByClassName('score2')
-
+// Game chooser
 const chooseGame = document.getElementById('choosegame');
 
 // Variables for player totals
@@ -45,7 +42,7 @@ p1Button.addEventListener('click', function () {
         }
         p1ScoreDisplay.innerHTML = p1Total;
     }
-})
+});
 
 /* Player Two button - increase score, and then stop when chosen game
 is over. Also adding green/red border for winning/losing player */
@@ -61,7 +58,7 @@ p2Button.addEventListener('click', function () {
         }
         p2ScoreDisplay.innerHTML = p2Total;
     }
-})
+});
 
 /* Reset button resets both scores and updates displayed scores 
 to zero for both players */
@@ -75,7 +72,7 @@ resetButton.addEventListener('click', function () {
     gameOver = false;
     p1ScoreDisplay.style.border = 'initial';
     p2ScoreDisplay.style.border = 'initial';
-})
+});
 
 
 // Code for different winning scores based on game selected 
@@ -94,7 +91,7 @@ chooseGame.addEventListener('change', function () {
     gameOver = false;
     p1ScoreDisplay.style.border = 'initial';
     p2ScoreDisplay.style.border = 'initial';
-})
+});
 
 /* Alert to tell you to select a game, if you haven't done so 
 before clicking on P1 or P2 button */
@@ -105,7 +102,7 @@ p1Button.addEventListener('click', function () {
         p1Total = 0;
         p1ScoreDisplay.innerHTML = 0;
     }
-})
+});
 
 p2Button.addEventListener('click', function () {
     if (winningScore === 0) {
@@ -113,15 +110,15 @@ p2Button.addEventListener('click', function () {
         p2Total = 0;
         p2ScoreDisplay.innerHTML = 0;
     }
-})
+});
 
 // Function to increase P1 game total score, and to stop once 3 is reached with an alert.
 
 function incrementScoreP1() {
     document.getElementById('scorep1').innerText = totalScoreP1 += 1;
     if (totalScoreP1 === 3) {
-        totalScoreP1 = 0,
-            totalScoreP2 = 0;
+        totalScoreP1 = 0;
+        totalScoreP2 = 0;
         document.getElementById('scorep1').innerText = 0;
         document.getElementById('scorep2').innerText = 0;
         alert('Player One Wins!');
@@ -133,8 +130,8 @@ function incrementScoreP1() {
 function incrementScoreP2() {
     document.getElementById('scorep2').innerText = totalScoreP2 += 1;
     if (totalScoreP2 === 3) {
-        totalScoreP1 = 0,
-            totalScoreP2 = 0;
+        totalScoreP1 = 0;
+        totalScoreP2 = 0;
         document.getElementById('scorep1').innerText = 0;
         document.getElementById('scorep2').innerText = 0;
         alert('Player Two Wins!');
