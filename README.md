@@ -10,10 +10,26 @@ This is a basic interactive website, to be used for keeping score for various ra
 
 This website has a simple UI, that allows the user to focus specifically on the scoreboard area itself, without distractions. 
 
-
 ## Features
 
+* The scoreboard itself has a button for both player one and player two, to award points when required to each player. When a point is awarded to either player, the total for each player (underneath the appropriate headings) is increased by one. The winning score for each game is dependent on which game is selected.
+* A Reset button is placed below the two scorekeeping buttons, to reset the scores to zero when required.
+* The select field within the scoreboard can be used to choose from three different games - squash (play to 11 points), racquetball (play to 15 points) and badminton (play to 21 points).
+* The bottom scoreboard keeps count of the total of individual games won, up to a winning score of 3 games.
 
+I developed the functionality of this scoreboard as follows:
+
+1) The first requirement of this scoreboard is to select a game, so that the scoreboard knows which game is being played and what the winning score for this game is. If you don't select a game before clicking on one of the player buttons, a browser alert appears, asking to you select a game before proceeding.
+
+2) Once a game has been selected, when clicking on either of the scorekeeping buttons, the score for the appropriate player increases by one.
+
+3) The score for each player can be increased, up to the total number of points required by the game selected. Once the winning score has been reached, a green border appears around the winning score, and a red border appears around the losing score, to denote winner and loser of that game. It's then not possible to award any more points to either player, as the game has been concluded.
+
+4) Once the winning score has been reached, a game point is attributed to that game winner under the "First to 3!" heading. The user can then click on the Reset button, to begin the game again.
+
+5) Once a player reaches a total of 3 overall games won, a browser alert appears to denote the overall winner - either "Player One Wins!" or "Player Two Wins". Once this alert appears, the overall game total under the "Play to 3!" heading is reset to zero, so that the match can begin again after the Reset button is pressed.
+
+6) During the game itself, if a user changes the selected game to another game, the overall game totals for both score areas (individual game and overall) are reset to zero. This is to avoid confusion in terms of points awarded, as switching between selected games mid-game is not an expected activity for the user. The 3 sports available in the scoreboard (squash, racquetball and badminton) are individual sports and do not overlap.
 
 ### Features Left to Implement
 
@@ -31,9 +47,9 @@ Below is a list of languages, plugins and other tools used to create and develop
 
 ## Testing
 
-1. 
+* During the development of this, I continually tested its functionality across different web browsers such as Google Chrome, Brave and Mozilla Firefox. The intended functionality of the scoreboard is as described above in the features section. I did not detect any usability bugs outside of its intended functionality once I'd completed development.
 
-* The site was tested continuously across various modern browsers, especially in Google Chrome using the DevTools suite. I tested the site using the responsiveness tool, and the site is responsive across devices of varying screen widths. 
+*  I tested the site using the responsiveness tools in Google Chrome, and the site is responsive across devices of varying screen widths.
 
 * The site receives a good score from the Lighthouse testing tool, as shown here: 
 

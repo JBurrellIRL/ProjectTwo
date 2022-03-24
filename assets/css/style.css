@@ -117,7 +117,7 @@ body {
 @media screen and (max-width: 1300px) {
     .container {
         width: 80%;
-        margin: 25vh auto;
+        margin: 10vh auto;
     }
 }
 
