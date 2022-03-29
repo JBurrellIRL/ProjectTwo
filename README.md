@@ -4,7 +4,7 @@ Site URL: https://jburrellirl.github.io/ProjectTwo/
 
 This is a basic interactive website, to be used for keeping score for various racquet-based games. Here's a screenshot of the site to show that it's responsive to different screen sizes:
 
-![Responsive Screenshot](https://github.com/JBurrellIRL/ProjectTwo/blob/main/assets/images/amiresponsive.png?raw=true)
+![Responsive Screenshot](https://raw.githubusercontent.com/JBurrellIRL/ProjectTwo/main/assets/images/amiresponsive.png)
 
 ## UX
 
@@ -46,16 +46,22 @@ Below is a list of languages, plugins and other tools used to create and develop
 * JavaScript: To create the interactive elements of the website itself. 
 * [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Lato' font into the style.css file which is used for the text areas in this webpage.
+* Git - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+* GitHub - GitHub is used to store the projects code after being pushed from Git.
 
 ## Testing
 
-* During the development of this, I continually tested its functionality across different web browsers such as Google Chrome, Brave and Mozilla Firefox. The intended functionality of the scoreboard is as described above in the features section. I did not detect any usability bugs outside of its intended functionality once I'd completed development.
+* As a first-time visitor to this site, I want something that's easy to understand, with clearly defined text and interactive button areas, that don't require extensive testing and experimentation before the purpose of the site becomes clear. The purpose of this site is made clear through the "header" text (site title) and the buttons are clearly labelled to make their purpose clear to the user. 
 
-*  I tested the site using the responsiveness tools in Google Chrome, and the site is responsive across devices of varying screen widths.
+* During the development of this, I continually tested its functionality across different web browsers such as Google Chrome, Brave, Safari and Mozilla Firefox. The intended functionality of the scoreboard is as described above in the Features section.
+
+* I did not detect any usability bugs outside of its intended functionality once I'd completed development.
+
+* I tested the site using the responsiveness tools in Google Chrome, and the site is responsive across devices of varying screen widths.
 
 * The site receives a good score from the Lighthouse testing tool, as shown here: 
 
-![Lighthouse results](https://github.com/JBurrellIRL/ProjectTwo/blob/main/assets/images/lighthouse.jpg?raw=true)
+![Lighthouse results](https://raw.githubusercontent.com/JBurrellIRL/ProjectTwo/main/assets/images/scoreboard.jpg)
 
 
 ### Bugs
@@ -86,7 +92,7 @@ Resources used include the following:
 * Code Institute - course content, Love Maths project and also the "Portfolio 2 Project Scope" video created by Matt Rudge.
 * Udemy Web Developer Bootcamp course, which I am also taking in parallel to this Code Institute course. I used the video content in this course for help with JavaScript syntax, along with the Code Institute content.
 * Coding assistance was obtained from Stack Overflow, MDN, W3Schools and CSS Tricks. Credits in CSS file where appropriate. 
-* Thanks to my mentor also.
+* Thanks to my mentor for his guidance around best practices, and for his feedback in our mentor sessions.
 
 ### Content
 
