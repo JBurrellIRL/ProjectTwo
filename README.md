@@ -63,6 +63,8 @@ Below is a list of languages, plugins and other tools used to create and develop
 
 ![Lighthouse results](https://raw.githubusercontent.com/JBurrellIRL/ProjectTwo/main/assets/images/scoreboard.jpg)
 
+* The site does not return any console errors when it's loaded.
+
 
 ### Bugs
 
