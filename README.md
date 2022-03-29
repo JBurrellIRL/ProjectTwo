@@ -8,7 +8,9 @@ This is a basic interactive website, to be used for keeping score for various ra
 
 ## UX
 
-This website has a simple UI, that allows the user to focus specifically on the scoreboard area itself, without distractions. 
+This website has a simple UI, that allows the user to focus specifically on the scoreboard area itself, without distractions. Here's a screenshot of the scoreboard:
+
+![Scoreboard]()
 
 ## Features
 
@@ -75,10 +77,17 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 * HTML - No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjburrellirl.github.io%2FProjectTwo%2F).
 * No errors were found when passing through the official [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjburrellirl.github.io%2FProjectTwo%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+* No errors were found in my JavaScript file when running it through the [JSHint Validator](https://jshint.com/). 
 
 ## Credits
 
 Resources used include the following:
 
+* Code Institute - course content, Love Maths project and also the "Portfolio 2 Project Scope" video created by Matt Rudge.
+* Udemy Web Developer Bootcamp course, which I am also taking in parallel to this Code Institute course. I used the video content in this course for help with JavaScript syntax, along with the Code Institute content.
+* Coding assistance was obtained from Stack Overflow, W3Schools and above developer course. 
+* Thanks to my mentor also.
 
 ### Content
+
+* The site background image was obtained from Google search. Link to image: https://killorglinsportscomplex.com/wp-content/uploads/2015/02/Squash_court.jpg 

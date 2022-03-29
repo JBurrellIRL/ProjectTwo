@@ -1,6 +1,8 @@
 /* Google Fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+/* Got help with fullscreen background image from this tutorial: https://css-tricks.com/perfect-full-page-background-image/ */
+
 html {
     background: url('https://killorglinsportscomplex.com/wp-content/uploads/2015/02/Squash_court.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -26,6 +28,8 @@ body {
     border-radius: 5px;
 
 }
+
+/* Used MDN Web Docs for help with creating a grid layout for the scoreboard buttons and score areas: https: //developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns  */
 
 .scoreboard {
     display: grid;
@@ -117,7 +121,7 @@ body {
 @media screen and (max-width: 1300px) {
     .container {
         width: 80%;
-        margin: 10vh auto;
+        margin: 8vh auto;
     }
 }
 
