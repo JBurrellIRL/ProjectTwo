@@ -4,13 +4,13 @@ Site URL: https://jburrellirl.github.io/ProjectTwo/
 
 This is a basic interactive website, to be used for keeping score for various racquet-based games. Here's a screenshot of the site to show that it's responsive to different screen sizes:
 
-![Responsive Screenshot]()
+![Responsive Screenshot](https://github.com/JBurrellIRL/ProjectTwo/blob/main/assets/images/amiresponsive.png?raw=true)
 
 ## UX
 
 This website has a simple UI, that allows the user to focus specifically on the scoreboard area itself, without distractions. Here's a screenshot of the scoreboard:
 
-![Scoreboard]()
+![Scoreboard](https://raw.githubusercontent.com/JBurrellIRL/ProjectTwo/6b14d769629b4a7a09f682586c1a7731c806f07e/assets/images/scoreboard.jpg)
 
 ## Features
 
@@ -55,7 +55,7 @@ Below is a list of languages, plugins and other tools used to create and develop
 
 * The site receives a good score from the Lighthouse testing tool, as shown here: 
 
-![Lighthouse results]()
+![Lighthouse results](https://github.com/JBurrellIRL/ProjectTwo/blob/main/assets/images/lighthouse.jpg?raw=true)
 
 
 ### Bugs
@@ -85,7 +85,7 @@ Resources used include the following:
 
 * Code Institute - course content, Love Maths project and also the "Portfolio 2 Project Scope" video created by Matt Rudge.
 * Udemy Web Developer Bootcamp course, which I am also taking in parallel to this Code Institute course. I used the video content in this course for help with JavaScript syntax, along with the Code Institute content.
-* Coding assistance was obtained from Stack Overflow, W3Schools and above developer course. 
+* Coding assistance was obtained from Stack Overflow, MDN, W3Schools and CSS Tricks. Credits in CSS file where appropriate. 
 * Thanks to my mentor also.
 
 ### Content
