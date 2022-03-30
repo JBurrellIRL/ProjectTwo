@@ -94,6 +94,7 @@ Resources used include the following:
 * Code Institute - course content, Love Maths project and also the "Portfolio 2 Project Scope" video created by Matt Rudge.
 * Udemy Web Developer Bootcamp course, which I am also taking in parallel to this Code Institute course. I used the video content in this course for help with JavaScript syntax, along with the Code Institute content.
 * Coding assistance was obtained from Stack Overflow, MDN, W3Schools and CSS Tricks. Credits in CSS file where appropriate. 
+* Web Dev Simplified channel on YouTube for extra JavaScript help: https://www.youtube.com/c/WebDevSimplified 
 * Thanks to my mentor for his guidance around best practices, and for his feedback in our mentor sessions.
 
 ### Content
